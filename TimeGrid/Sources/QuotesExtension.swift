@@ -1,6 +1,6 @@
 //
 //  QuotesExtension.swift
-//  YiGe
+//  TimeGrid
 //
 //  扩展名言集合 - 600句完整版
 //  包含：古诗词、日本哲语、欧美名言、电影台词等

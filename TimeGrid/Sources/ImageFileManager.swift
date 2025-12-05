@@ -13,8 +13,8 @@ public class ImageFileManager {
     public static let shared = ImageFileManager()
     
     private let fileManager = FileManager.default
-    private let photosDirectoryName = "YiGePhotos_V4_1"
-    private let artifactsDirectoryName = "YiGeArtifacts_V4_2" // V4.2: 信物图片目录
+    private let photosDirectoryName = "TimeGridPhotos_V4_1"
+    private let artifactsDirectoryName = "TimeGridArtifacts_V4_2" // V4.2: 信物图片目录
     
     private init() {
         createPhotosDirectoryIfNeeded()

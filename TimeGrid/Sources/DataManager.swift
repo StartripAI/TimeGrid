@@ -17,9 +17,9 @@ class DataManager: ObservableObject {
     // 注意：已移除 recordsDict，因为同一天可以有多个记录，字典无法处理重复键
     
     // 存储键
-    private let recordsKey = "YiGe_Records_V3"
-    private let anniversariesKey = "YiGe_Anniversaries_V3"
-    private let settingsKey = "YiGe_Settings_V3"
+    private let recordsKey = "TimeGrid_Records_V3"
+    private let anniversariesKey = "TimeGrid_Anniversaries_V3"
+    private let settingsKey = "TimeGrid_Settings_V3"
     
     private var cancellables = Set<AnyCancellable>()
     

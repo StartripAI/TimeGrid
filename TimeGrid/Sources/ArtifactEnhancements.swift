@@ -196,7 +196,7 @@ struct SerialNumberLabel: View {
 }
 
 // MARK: - 8. 时光格品牌水印
-struct YiGeWatermark: View {
+struct TimeGridWatermark: View {
     var style: WatermarkStyle = .subtle
     
     enum WatermarkStyle {

@@ -48,7 +48,7 @@ class NotificationManager {
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         
         let request = UNNotificationRequest(
-            identifier: "YiGe_DailyReminder",
+            identifier: "TimeGrid_DailyReminder",
             content: content,
             trigger: trigger
         )

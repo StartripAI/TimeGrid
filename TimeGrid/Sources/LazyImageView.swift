@@ -17,7 +17,7 @@ class ImageCache {
         ImageCache.shared.countLimit = 100 // 最多缓存 100 张图片
         ImageCache.shared.totalCostLimit = 200 * 1024 * 1024 // 200MB
         // 设置缓存名称（用于调试）
-        ImageCache.shared.name = "YiGeImageCache"
+        ImageCache.shared.name = "TimeGridImageCache"
     }
     
     // V4.3: 预加载图片到缓存（用于优化列表滚动性能）

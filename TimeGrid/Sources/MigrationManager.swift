@@ -22,8 +22,8 @@ class MigrationManager: ObservableObject {
     @Published var error: MigrationError?
     
     // MARK: - Private Properties
-    private let localDataKey = "YiGe_LocalRecords_V2"
-    private let migrationCompleteKey = "YiGe_MigrationComplete"
+    private let localDataKey = "TimeGrid_LocalRecords_V2"
+    private let migrationCompleteKey = "TimeGrid_MigrationComplete"
     
     // MARK: - Init
     private init() {}
@@ -98,7 +98,7 @@ class MigrationManager: ObservableObject {
     func hasPendingMigration() -> Bool {
         // 需要从 DataManager 获取
         let isMigrated = UserDefaults.standard.bool(forKey: migrationCompleteKey)
-        let recordCount = UserDefaults.standard.integer(forKey: "YiGe_LocalRecordCount")
+        let recordCount = UserDefaults.standard.integer(forKey: "TimeGrid_LocalRecordCount")
         return !isMigrated && recordCount > 0
     }
     

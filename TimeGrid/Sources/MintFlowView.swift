@@ -1,6 +1,6 @@
 //
 //  MintFlowView.swift
-//  YiGe
+//  TimeGrid
 //
 //  Created by Alfred on 2025/12/1.
 //

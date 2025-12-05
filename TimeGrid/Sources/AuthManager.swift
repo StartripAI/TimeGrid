@@ -26,10 +26,10 @@ class AuthManager: ObservableObject {
     @Published var loginTrigger: RegistrationTrigger?
     
     // MARK: - Private Properties
-    private let userDefaultsKey = "YiGe_CurrentUser"
-    private let guestDataKey = "YiGe_GuestData"
-    private let deviceIdKey = "YiGe_DeviceId"
-    private let recordCountKey = "YiGe_LocalRecordCount"
+    private let userDefaultsKey = "TimeGrid_CurrentUser"
+    private let guestDataKey = "TimeGrid_GuestData"
+    private let deviceIdKey = "TimeGrid_DeviceId"
+    private let recordCountKey = "TimeGrid_LocalRecordCount"
     
     private var cancellables = Set<AnyCancellable>()
     

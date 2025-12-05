@@ -2540,7 +2540,7 @@ struct StyleGalaInviteView: View {
 //
 // 添加方法：
 // 1. 在 Xcode 项目导航器中，右键点击 'Sources' 文件夹
-// 2. 选择 'Add Files to "YiGe"...'
+// 2. 选择 'Add Files to "TimeGrid"...'
 // 3. 选择上述文件
-// 4. 确保 'Add to targets: YiGe' 被选中
+// 4. 确保 'Add to targets: TimeGrid' 被选中
 // 5. 点击 'Add'

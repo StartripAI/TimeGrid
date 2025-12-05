@@ -1,7 +1,7 @@
-# 一格 (YiGe) - 每日一格，封存时光
+# 一格 (TimeGrid) - 每日一格，封存时光
 
 <p align="center">
-  <img src="YiGe/Resources/AppIcon.svg" width="120" height="120" alt="YiGe App Icon">
+  <img src="TimeGrid/Resources/AppIcon.svg" width="120" height="120" alt="TimeGrid App Icon">
 </p>
 
 ## 📖 产品简介
@@ -27,9 +27,9 @@
 ## 📁 项目结构
 
 ```
-YiGe/
+TimeGrid/
 ├── Sources/
-│   ├── YiGeApp.swift           # App入口
+│   ├── TimeGridApp.swift           # App入口
 │   ├── Models.swift            # 数据模型
 │   ├── DataManager.swift       # 数据管理
 │   ├── ContentView.swift       # 主视图（包含HomeView, CalendarGridView）
@@ -52,7 +52,7 @@ YiGe/
 1. 打开 Xcode，选择 **Create a new Xcode project**
 2. 选择 **iOS** → **App**
 3. 填写项目信息：
-   - **Product Name**: `YiGe`
+   - **Product Name**: `TimeGrid`
    - **Team**: 选择你的开发者账号
    - **Organization Identifier**: 例如 `com.yourname`
    - **Interface**: `SwiftUI`
@@ -62,8 +62,8 @@ YiGe/
 ### 导入代码文件
 
 1. 删除 Xcode 自动生成的 `ContentView.swift`
-2. 将 `YiGe/Sources/` 目录下的所有 `.swift` 文件拖入 Xcode 项目
-3. 将 `YiGe/Resources/Assets.xcassets/` 中的所有 colorset 目录拖入项目的 `Assets.xcassets`
+2. 将 `TimeGrid/Sources/` 目录下的所有 `.swift` 文件拖入 Xcode 项目
+3. 将 `TimeGrid/Resources/Assets.xcassets/` 中的所有 colorset 目录拖入项目的 `Assets.xcassets`
 
 ### 配置 App Icon
 

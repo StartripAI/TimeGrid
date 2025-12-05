@@ -1,12 +1,12 @@
 //
-//  YiGeApp.swift
+//  TimeGridApp.swift
 //  时光格 V3.5.1 - 启动优化版
 //
 
 import SwiftUI
 
 @main
-struct YiGeApp: App {
+struct TimeGridApp: App {
     // ⚠️ 关键优化1：使用 @StateObject 的懒加载特性
     // 这些只在真正需要时才初始化
     @StateObject private var dataManager = DataManager()
@@ -186,7 +186,7 @@ struct YiGeApp: App {
 // MARK: - 优化版轻量级启动屏
 
 struct OptimizedLaunchScreen: View {
-    @Binding var phase: YiGeApp.LaunchPhase
+    @Binding var phase: TimeGridApp.LaunchPhase
     var isLoading: Bool = false
     
     @State private var logoOpacity: Double = 0
@@ -539,4 +539,3 @@ struct LaunchArtifactPreview: View {
         )
     }
 }
-

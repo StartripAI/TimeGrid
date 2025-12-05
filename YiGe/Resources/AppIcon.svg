@@ -1,0 +1,71 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- V3.3 App Icon: 热敏打印机 + 时光小票 -->
+  <!-- 设计理念：极简主义，突出"时光小票"核心概念 -->
+  
+  <!-- 米白色背景 -->
+  <rect width="1024" height="1024" rx="220" fill="#FAF9F7"/>
+  
+  <!-- 打印机主体 -->
+  <rect x="287" y="180" width="450" height="180" rx="30" fill="#2D2D2D"/>
+  
+  <!-- 打印机出纸口 -->
+  <rect x="307" y="335" width="410" height="25" rx="8" fill="#1A1A1A"/>
+  
+  <!-- 小票（正在打印出来的效果） -->
+  <g>
+    <!-- 小票主体 -->
+    <rect x="332" y="360" width="360" height="480" fill="#FAF9F7" stroke="#E5E5E5" stroke-width="2"/>
+    
+    <!-- 小票内容线条 -->
+    <rect x="372" y="400" width="240" height="8" rx="4" fill="#2D2D2D"/>
+    <rect x="372" y="432" width="180" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="460" width="260" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="488" width="220" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="516" width="160" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="544" width="140" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="580" width="260" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="608" width="200" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="636" width="180" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="664" width="220" height="6" rx="3" fill="#2D2D2D"/>
+    <rect x="372" y="692" width="140" height="6" rx="3" fill="#2D2D2D"/>
+    
+    <!-- 条形码 -->
+    <g transform="translate(372, 760)">
+      <rect x="0" width="4" height="50" fill="#2D2D2D"/>
+      <rect x="8" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="14" width="6" height="50" fill="#2D2D2D"/>
+      <rect x="24" width="3" height="50" fill="#2D2D2D"/>
+      <rect x="30" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="36" width="5" height="50" fill="#2D2D2D"/>
+      <rect x="45" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="50" width="4" height="50" fill="#2D2D2D"/>
+      <rect x="58" width="3" height="50" fill="#2D2D2D"/>
+      <rect x="65" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="70" width="6" height="50" fill="#2D2D2D"/>
+      <rect x="80" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="86" width="4" height="50" fill="#2D2D2D"/>
+      <rect x="94" width="3" height="50" fill="#2D2D2D"/>
+      <rect x="100" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="106" width="5" height="50" fill="#2D2D2D"/>
+      <rect x="115" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="120" width="4" height="50" fill="#2D2D2D"/>
+      <rect x="128" width="3" height="50" fill="#2D2D2D"/>
+      <rect x="135" width="6" height="50" fill="#2D2D2D"/>
+      <rect x="145" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="151" width="4" height="50" fill="#2D2D2D"/>
+      <rect x="159" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="165" width="5" height="50" fill="#2D2D2D"/>
+      <rect x="174" width="3" height="50" fill="#2D2D2D"/>
+      <rect x="181" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="187" width="4" height="50" fill="#2D2D2D"/>
+      <rect x="195" width="6" height="50" fill="#2D2D2D"/>
+      <rect x="205" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="211" width="3" height="50" fill="#2D2D2D"/>
+      <rect x="218" width="5" height="50" fill="#2D2D2D"/>
+      <rect x="227" width="2" height="50" fill="#2D2D2D"/>
+      <rect x="233" width="4" height="50" fill="#2D2D2D"/>
+      <rect x="241" width="3" height="50" fill="#2D2D2D"/>
+      <rect x="248" width="6" height="50" fill="#2D2D2D"/>
+    </g>
+  </g>
+</svg>

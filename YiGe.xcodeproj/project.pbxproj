@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1F7FCB977169BF583008C0 /* ImageFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABBFC2DF447AEF3B7EBF1C /* ImageFileManager.swift */; };
+		A1000001 /* YiGeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* YiGeApp.swift */; };
+		A1000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* Models.swift */; };
+		A1000003 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* DataManager.swift */; };
+		A1000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* ContentView.swift */; };
+		A1000005 /* NewRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* NewRecordView.swift */; };
+		A1000006 /* RecordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* RecordDetailView.swift */; };
+		A1000007 /* TimeCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* TimeCapsuleView.swift */; };
+		A1000009 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000009 /* NotificationManager.swift */; };
+		A1000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000010 /* Assets.xcassets */; };
+		A1000017 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000017 /* CountdownView.swift */; };
+		A1000018 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000018 /* TodayView.swift */; };
+		A1000019 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000019 /* ProfileView.swift */; };
+		A1000020 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000020 /* QuotesManager.swift */; };
+		A1000021 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000021 /* CalendarManager.swift */; };
+		A1000022 /* RecordStyleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* RecordStyleViews.swift */; };
+		A1000023 /* DayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* DayDetailView.swift */; };
+		A1000024 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000024 /* OnboardingView.swift */; };
+		A1000025 /* RitualHubWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* RitualHubWidgets.swift */; };
+		A1000026 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000026 /* CameraService.swift */; };
+		A1000027 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000027 /* CustomCameraView.swift */; };
+		A1000028 /* MaxSealsReachedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000028 /* MaxSealsReachedView.swift */; };
+		A1000029 /* Models+V2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000029 /* Models+V2.swift */; };
+		A1000030 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000030 /* UserModel.swift */; };
+		A1000031 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000031 /* AuthManager.swift */; };
+		A1000032 /* MigrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000032 /* MigrationManager.swift */; };
+		A1000033 /* GLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000033 /* GLMService.swift */; };
+		A1000034 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000034 /* AppConfig.swift */; };
+		A1000035 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000035 /* LoginView.swift */; };
+		A1000036 /* TimeCapsuleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000036 /* TimeCapsuleSheet.swift */; };
+		BB2010552ED85D5900B772FD /* StyleCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2010542ED85D5900B772FD /* StyleCarouselView.swift */; };
+		BB58B2392ED8FD9D00631AAC /* KeepsakeSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB58B2382ED8FD9D00631AAC /* KeepsakeSystem.swift */; };
+		BB58B23B2ED8FDBC00631AAC /* QuotesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB58B23A2ED8FDBC00631AAC /* QuotesExtension.swift */; };
+		BB7D618D2EDB4FDC005E3899 /* HubStylePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D618C2EDB4FDC005E3899 /* HubStylePickerView.swift */; };
+		BB7D618E2EDB4FDC005E3899 /* ArtifactStylePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D618A2EDB4FDC005E3899 /* ArtifactStylePickerView.swift */; };
+		BB7D618F2EDB4FDC005E3899 /* HistoryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D618B2EDB4FDC005E3899 /* HistoryTabView.swift */; };
+		BB7D61912EDB755B005E3899 /* ArtifactPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61902EDB755B005E3899 /* ArtifactPreviewView.swift */; };
+		BB7D61942EDBD2BF005E3899 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61932EDBD2BF005E3899 /* TimelineView.swift */; };
+		BB7D61952EDBD2BF005E3899 /* CustomTemplateEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61922EDBD2BF005E3899 /* CustomTemplateEditorView.swift */; };
+		BB7D61992EDC7531005E3899 /* MintFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61972EDC7531005E3899 /* MintFlowView.swift */; };
+		BB7D619A2EDC7531005E3899 /* TodayWorkbenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61982EDC7531005E3899 /* TodayWorkbenchView.swift */; };
+		BB7D619B2EDC7531005E3899 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61962EDC7531005E3899 /* Helpers.swift */; };
+		BB7D619F2EDC84B7005E3899 /* SensoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D619D2EDC84B7005E3899 /* SensoryManager.swift */; };
+		BB7D61A02EDC84B7005E3899 /* ThemeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D619E2EDC84B7005E3899 /* ThemeEngine.swift */; };
+		BB7D61A12EDC84B7005E3899 /* LuxuryTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D619C2EDC84B7005E3899 /* LuxuryTabBar.swift */; };
+		BB7D61AB2EDC9620005E3899 /* ThemeMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61A92EDC9620005E3899 /* ThemeMaterials.swift */; };
+		BB7D61BB2EDD69E1005E3899 /* LuxuryDevelopingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61BA2EDD69E1005E3899 /* LuxuryDevelopingBackground.swift */; };
+		BB7D61BD2EDD6AD3005E3899 /* ArtifactTemplateFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61BC2EDD6AD3005E3899 /* ArtifactTemplateFactory.swift */; };
+		BB7D61CE2EE05580005E3899 /* ArtifactImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61CF2EE05580005E3899 /* ArtifactImageRenderer.swift */; };
+		BB7D61CF2EE19C15005E3899 /* MasterArtifacts_Royal 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61CE2EE19C15005E3899 /* MasterArtifacts_Royal 2.swift */; };
+		BB7D61D02EE05590005E3899 /* SpecialArtifactRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61D12EE05590005E3899 /* SpecialArtifactRenderer.swift */; };
+		BB7D61D22EE055A0005E3899 /* TagsInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61D32EE055A0005E3899 /* TagsInputView.swift */; };
+		BB7D61D42EE055B0005E3899 /* EventTypePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61D52EE055B0005E3899 /* EventTypePickerView.swift */; };
+		BB7D61D62EE055C0005E3899 /* MetadataCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61D72EE055C0005E3899 /* MetadataCollector.swift */; };
+		BB7D61D82EE055D0005E3899 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61D92EE055D0005E3899 /* LocationService.swift */; };
+		BB7D61DA2EE055E0005E3899 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61DB2EE055E0005E3899 /* WeatherService.swift */; };
+		BB7D61DC2EE055F0005E3899 /* MetadataPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61DD2EE055F0005E3899 /* MetadataPickerView.swift */; };
+		BB7D61DE2EE05600005E3899 /* ArtifactOutputSpecV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61DF2EE05600005E3899 /* ArtifactOutputSpecV4.swift */; };
+		BB7D61E02EE05610005E3899 /* ArtifactEnhancements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61E12EE05610005E3899 /* ArtifactEnhancements.swift */; };
+		BB7D61E22EE05620005E3899 /* ForgeArtifactButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61E32EE05620005E3899 /* ForgeArtifactButton.swift */; };
+		BB7D61E42EE05630005E3899 /* ThermalReceiptV5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61E52EE05630005E3899 /* ThermalReceiptV5.swift */; };
+		BB7D61E62EE05640005E3899 /* OptimizedArtifactsV5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61E72EE05640005E3899 /* OptimizedArtifactsV5.swift */; };
+		BB7D61E82EE05650005E3899 /* ThermalReceiptV7.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61E92EE05650005E3899 /* ThermalReceiptV7.swift */; };
+		BB7D61EA2EE05660005E3899 /* ThermalReceiptV8.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61EB2EE05660005E3899 /* ThermalReceiptV8.swift */; };
+		BB7D61EC2EE05670005E3899 /* ThermalReceiptV9.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61ED2EE05670005E3899 /* ThermalReceiptV9.swift */; };
+		BB7D61EE2EE05680005E3899 /* RitualHubWidgetsV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61EF2EE05680005E3899 /* RitualHubWidgetsV2.swift */; };
+		BB7D61F02EE05690005E3899 /* RitualCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61F12EE05690005E3899 /* RitualCenterView.swift */; };
+		BB7D61F22EE056A0005E3899 /* ForgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61F32EE056A0005E3899 /* ForgeView.swift */; };
+		BB7D61F42EE056B0005E3899 /* ForgeViewV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61F52EE056B0005E3899 /* ForgeViewV2.swift */; };
+		BB7D61F62EE056C0005E3899 /* ForgeHubWidgetsV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61F72EE056C0005E3899 /* ForgeHubWidgetsV2.swift */; };
+		BB7D61F82EE056D0005E3899 /* ForgeViewV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61F92EE056D0005E3899 /* ForgeViewV3.swift */; };
+		BB7D61FA2EE056E0005E3899 /* ForgeHubWidgetsV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61FB2EE056E0005E3899 /* ForgeHubWidgetsV3.swift */; };
+		BB7D61FC2EE056F0005E3899 /* StyleReceiptThermalV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61FD2EE056F0005E3899 /* StyleReceiptThermalV3.swift */; };
+		BB7D61FE2EE05700005E3899 /* MasterForgeWidgets_Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D61FF2EE05700005E3899 /* MasterForgeWidgets_Complete.swift */; };
+		D8805C834C5156141BF35E04 /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779702342D4DCC8D3438472 /* LazyImageView.swift */; };
+		1A671CA0DA18 /* MasterArtifacts_Nature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00FDFA2F2 /* MasterArtifacts_Nature.swift */; };
+		AFB5DCDB3EE0 /* MasterArtifacts_Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A529E779F0 /* MasterArtifacts_Film.swift */; };
+		A44AF19E51AA /* MasterArtifacts_Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5377317933 /* MasterArtifacts_Explorer.swift */; };
+		99263CD8BAA6 /* MasterArtifacts_Aviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5ABEF27374 /* MasterArtifacts_Aviation.swift */; };
+		82AEAEACBED4 /* MasterArtifacts_Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888CCDBE160 /* MasterArtifacts_Tickets.swift */; };
+		4DA7100F07F2 /* ArtifactPickerV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369133C9C80 /* ArtifactPickerV2.swift */; };
+		E02D94958DB2 /* MasterArtifactFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F998975C7D6 /* MasterArtifactFactory.swift */; };
+		25D2036765F7 /* ForgeViewV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F816181CF3D /* ForgeViewV4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4779702342D4DCC8D3438472 /* LazyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyImageView.swift; sourceTree = "<group>"; };
+		52ABBFC2DF447AEF3B7EBF1C /* ImageFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFileManager.swift; sourceTree = "<group>"; };
+		B1000001 /* YiGeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiGeApp.swift; sourceTree = "<group>"; };
+		B1000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B1000003 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		B1000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1000005 /* NewRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordView.swift; sourceTree = "<group>"; };
+		B1000006 /* RecordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailView.swift; sourceTree = "<group>"; };
+		B1000007 /* TimeCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCapsuleView.swift; sourceTree = "<group>"; };
+		B1000009 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B1000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000017 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		B1000018 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		B1000019 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B1000020 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		B1000021 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		B1000022 /* RecordStyleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordStyleViews.swift; sourceTree = "<group>"; };
+		B1000023 /* DayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailView.swift; sourceTree = "<group>"; };
+		B1000024 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B1000025 /* RitualHubWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualHubWidgets.swift; sourceTree = "<group>"; };
+		B1000026 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		B1000027 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		B1000028 /* MaxSealsReachedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSealsReachedView.swift; sourceTree = "<group>"; };
+		B1000029 /* Models+V2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+V2.swift"; sourceTree = "<group>"; };
+		B1000030 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B1000031 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		B1000032 /* MigrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationManager.swift; sourceTree = "<group>"; };
+		B1000033 /* GLMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMService.swift; sourceTree = "<group>"; };
+		B1000034 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B1000035 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B1000036 /* TimeCapsuleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCapsuleSheet.swift; sourceTree = "<group>"; };
+		B10000AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2010542ED85D5900B772FD /* StyleCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCarouselView.swift; sourceTree = "<group>"; };
+		BB58B2382ED8FD9D00631AAC /* KeepsakeSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepsakeSystem.swift; sourceTree = "<group>"; };
+		BB58B23A2ED8FDBC00631AAC /* QuotesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesExtension.swift; sourceTree = "<group>"; };
+		BB7D618A2EDB4FDC005E3899 /* ArtifactStylePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactStylePickerView.swift; sourceTree = "<group>"; };
+		BB7D618B2EDB4FDC005E3899 /* HistoryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTabView.swift; sourceTree = "<group>"; };
+		BB7D618C2EDB4FDC005E3899 /* HubStylePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubStylePickerView.swift; sourceTree = "<group>"; };
+		BB7D61902EDB755B005E3899 /* ArtifactPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactPreviewView.swift; sourceTree = "<group>"; };
+		BB7D61922EDBD2BF005E3899 /* CustomTemplateEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTemplateEditorView.swift; sourceTree = "<group>"; };
+		BB7D61932EDBD2BF005E3899 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		BB7D61962EDC7531005E3899 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		BB7D61972EDC7531005E3899 /* MintFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintFlowView.swift; sourceTree = "<group>"; };
+		BB7D61982EDC7531005E3899 /* TodayWorkbenchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWorkbenchView.swift; sourceTree = "<group>"; };
+		BB7D619C2EDC84B7005E3899 /* LuxuryTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxuryTabBar.swift; sourceTree = "<group>"; };
+		BB7D619D2EDC84B7005E3899 /* SensoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoryManager.swift; sourceTree = "<group>"; };
+		BB7D619E2EDC84B7005E3899 /* ThemeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEngine.swift; sourceTree = "<group>"; };
+		BB7D61A92EDC9620005E3899 /* ThemeMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeMaterials.swift; sourceTree = "<group>"; };
+		BB7D61BA2EDD69E1005E3899 /* LuxuryDevelopingBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxuryDevelopingBackground.swift; sourceTree = "<group>"; };
+		BB7D61BC2EDD6AD3005E3899 /* ArtifactTemplateFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactTemplateFactory.swift; sourceTree = "<group>"; };
+		BB7D61CE2EE19C15005E3899 /* MasterArtifacts_Royal 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterArtifacts_Royal 2.swift"; sourceTree = "<group>"; };
+		BB7D61CF2EE05580005E3899 /* ArtifactImageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactImageRenderer.swift; sourceTree = "<group>"; };
+		BB7D61D12EE05590005E3899 /* SpecialArtifactRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialArtifactRenderer.swift; sourceTree = "<group>"; };
+		BB7D61D32EE055A0005E3899 /* TagsInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsInputView.swift; sourceTree = "<group>"; };
+		BB7D61D52EE055B0005E3899 /* EventTypePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTypePickerView.swift; sourceTree = "<group>"; };
+		BB7D61D72EE055C0005E3899 /* MetadataCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataCollector.swift; sourceTree = "<group>"; };
+		BB7D61D92EE055D0005E3899 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		BB7D61DB2EE055E0005E3899 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		BB7D61DD2EE055F0005E3899 /* MetadataPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataPickerView.swift; sourceTree = "<group>"; };
+		BB7D61DF2EE05600005E3899 /* ArtifactOutputSpecV4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactOutputSpecV4.swift; sourceTree = "<group>"; };
+		BB7D61E12EE05610005E3899 /* ArtifactEnhancements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactEnhancements.swift; sourceTree = "<group>"; };
+		BB7D61E32EE05620005E3899 /* ForgeArtifactButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgeArtifactButton.swift; sourceTree = "<group>"; };
+		BB7D61E52EE05630005E3899 /* ThermalReceiptV5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalReceiptV5.swift; sourceTree = "<group>"; };
+		BB7D61E72EE05640005E3899 /* OptimizedArtifactsV5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizedArtifactsV5.swift; sourceTree = "<group>"; };
+		BB7D61E92EE05650005E3899 /* ThermalReceiptV7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalReceiptV7.swift; sourceTree = "<group>"; };
+		BB7D61EB2EE05660005E3899 /* ThermalReceiptV8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalReceiptV8.swift; sourceTree = "<group>"; };
+		BB7D61ED2EE05670005E3899 /* ThermalReceiptV9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalReceiptV9.swift; sourceTree = "<group>"; };
+		BB7D61EF2EE05680005E3899 /* RitualHubWidgetsV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualHubWidgetsV2.swift; sourceTree = "<group>"; };
+		BB7D61F12EE05690005E3899 /* RitualCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCenterView.swift; sourceTree = "<group>"; };
+		BB7D61F32EE056A0005E3899 /* ForgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgeView.swift; sourceTree = "<group>"; };
+		BB7D61F52EE056B0005E3899 /* ForgeViewV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgeViewV2.swift; sourceTree = "<group>"; };
+		BB7D61F72EE056C0005E3899 /* ForgeHubWidgetsV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgeHubWidgetsV2.swift; sourceTree = "<group>"; };
+		BB7D61F92EE056D0005E3899 /* ForgeViewV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgeViewV3.swift; sourceTree = "<group>"; };
+		BB7D61FB2EE056E0005E3899 /* ForgeHubWidgetsV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgeHubWidgetsV3.swift; sourceTree = "<group>"; };
+		BB7D61FD2EE056F0005E3899 /* StyleReceiptThermalV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleReceiptThermalV3.swift; sourceTree = "<group>"; };
+		BB7D61FF2EE05700005E3899 /* MasterForgeWidgets_Complete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterForgeWidgets_Complete.swift; sourceTree = "<group>"; };
+		C1000001 /* YiGe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiGe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C00FDFA2F2 /* MasterArtifacts_Nature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterArtifacts_Nature.swift"; sourceTree = "<group>"; };
+		C1A529E779F0 /* MasterArtifacts_Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterArtifacts_Film.swift"; sourceTree = "<group>"; };
+		7B5377317933 /* MasterArtifacts_Explorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterArtifacts_Explorer.swift"; sourceTree = "<group>"; };
+		1E5ABEF27374 /* MasterArtifacts_Aviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterArtifacts_Aviation.swift"; sourceTree = "<group>"; };
+		6888CCDBE160 /* MasterArtifacts_Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterArtifacts_Tickets.swift"; sourceTree = "<group>"; };
+		5369133C9C80 /* ArtifactPickerV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtifactPickerV2.swift"; sourceTree = "<group>"; };
+		6F998975C7D6 /* MasterArtifactFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterArtifactFactory.swift"; sourceTree = "<group>"; };
+		2F816181CF3D /* ForgeViewV4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForgeViewV4.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1000001 = {
+			isa = PBXGroup;
+			children = (
+				E1000002 /* YiGe */,
+				E1000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1000002 /* YiGe */ = {
+			isa = PBXGroup;
+			children = (
+				E1000003 /* Sources */,
+				E1000005 /* Resources */,
+				B10000AA /* Info.plist */,
+			);
+			path = YiGe;
+			sourceTree = "<group>";
+		};
+		E1000003 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D61CE2EE19C15005E3899 /* MasterArtifacts_Royal 2.swift */,
+				BB7D61CF2EE05580005E3899 /* ArtifactImageRenderer.swift */,
+				BB7D61D12EE05590005E3899 /* SpecialArtifactRenderer.swift */,
+				BB7D61DF2EE05600005E3899 /* ArtifactOutputSpecV4.swift */,
+				BB7D61E12EE05610005E3899 /* ArtifactEnhancements.swift */,
+				BB7D61E32EE05620005E3899 /* ForgeArtifactButton.swift */,
+				BB7D61E52EE05630005E3899 /* ThermalReceiptV5.swift */,
+				BB7D61E72EE05640005E3899 /* OptimizedArtifactsV5.swift */,
+				BB7D61E92EE05650005E3899 /* ThermalReceiptV7.swift */,
+				BB7D61EB2EE05660005E3899 /* ThermalReceiptV8.swift */,
+				BB7D61ED2EE05670005E3899 /* ThermalReceiptV9.swift */,
+				BB7D61EF2EE05680005E3899 /* RitualHubWidgetsV2.swift */,
+				BB7D61F12EE05690005E3899 /* RitualCenterView.swift */,
+				BB7D61F32EE056A0005E3899 /* ForgeView.swift */,
+				BB7D61F52EE056B0005E3899 /* ForgeViewV2.swift */,
+				BB7D61F72EE056C0005E3899 /* ForgeHubWidgetsV2.swift */,
+				BB7D61F92EE056D0005E3899 /* ForgeViewV3.swift */,
+				BB7D61FB2EE056E0005E3899 /* ForgeHubWidgetsV3.swift */,
+				BB7D61FF2EE05700005E3899 /* MasterForgeWidgets_Complete.swift */,
+				BB7D61FD2EE056F0005E3899 /* StyleReceiptThermalV3.swift */,
+				BB7D61D32EE055A0005E3899 /* TagsInputView.swift */,
+				BB7D61D52EE055B0005E3899 /* EventTypePickerView.swift */,
+				BB7D61DD2EE055F0005E3899 /* MetadataPickerView.swift */,
+				BB7D61D72EE055C0005E3899 /* MetadataCollector.swift */,
+				BB7D61D92EE055D0005E3899 /* LocationService.swift */,
+				BB7D61DB2EE055E0005E3899 /* WeatherService.swift */,
+				BB7D61BC2EDD6AD3005E3899 /* ArtifactTemplateFactory.swift */,
+				BB7D61BA2EDD69E1005E3899 /* LuxuryDevelopingBackground.swift */,
+				BB7D61A92EDC9620005E3899 /* ThemeMaterials.swift */,
+				BB7D619C2EDC84B7005E3899 /* LuxuryTabBar.swift */,
+				BB7D619D2EDC84B7005E3899 /* SensoryManager.swift */,
+				BB7D619E2EDC84B7005E3899 /* ThemeEngine.swift */,
+				BB7D61962EDC7531005E3899 /* Helpers.swift */,
+				BB7D61972EDC7531005E3899 /* MintFlowView.swift */,
+				BB7D61982EDC7531005E3899 /* TodayWorkbenchView.swift */,
+				BB7D61922EDBD2BF005E3899 /* CustomTemplateEditorView.swift */,
+				BB7D61932EDBD2BF005E3899 /* TimelineView.swift */,
+				BB7D61902EDB755B005E3899 /* ArtifactPreviewView.swift */,
+				BB7D618A2EDB4FDC005E3899 /* ArtifactStylePickerView.swift */,
+				BB7D618B2EDB4FDC005E3899 /* HistoryTabView.swift */,
+				BB7D618C2EDB4FDC005E3899 /* HubStylePickerView.swift */,
+				BB58B2382ED8FD9D00631AAC /* KeepsakeSystem.swift */,
+				BB58B23A2ED8FDBC00631AAC /* QuotesExtension.swift */,
+				BB2010542ED85D5900B772FD /* StyleCarouselView.swift */,
+				B1000001 /* YiGeApp.swift */,
+				B1000002 /* Models.swift */,
+				B1000003 /* DataManager.swift */,
+				B1000020 /* QuotesManager.swift */,
+				B1000004 /* ContentView.swift */,
+				B1000017 /* CountdownView.swift */,
+				B1000018 /* TodayView.swift */,
+				B1000019 /* ProfileView.swift */,
+				B1000005 /* NewRecordView.swift */,
+				B1000006 /* RecordDetailView.swift */,
+				B1000007 /* TimeCapsuleView.swift */,
+				B1000009 /* NotificationManager.swift */,
+				B1000021 /* CalendarManager.swift */,
+				B1000022 /* RecordStyleViews.swift */,
+				B1000023 /* DayDetailView.swift */,
+				B1000024 /* OnboardingView.swift */,
+				B1000025 /* RitualHubWidgets.swift */,
+				B1000026 /* CameraService.swift */,
+				B1000027 /* CustomCameraView.swift */,
+				B1000028 /* MaxSealsReachedView.swift */,
+				B1000029 /* Models+V2.swift */,
+				B1000030 /* UserModel.swift */,
+				B1000031 /* AuthManager.swift */,
+				B1000032 /* MigrationManager.swift */,
+				B1000033 /* GLMService.swift */,
+				B1000034 /* AppConfig.swift */,
+				B1000035 /* LoginView.swift */,
+				B1000036 /* TimeCapsuleSheet.swift */,
+				52ABBFC2DF447AEF3B7EBF1C /* ImageFileManager.swift */,
+				4779702342D4DCC8D3438472 /* LazyImageView.swift */,
+							D5C00FDFA2F2 /* MasterArtifacts_Nature.swift */,
+				C1A529E779F0 /* MasterArtifacts_Film.swift */,
+				7B5377317933 /* MasterArtifacts_Explorer.swift */,
+				1E5ABEF27374 /* MasterArtifacts_Aviation.swift */,
+				6888CCDBE160 /* MasterArtifacts_Tickets.swift */,
+				5369133C9C80 /* ArtifactPickerV2.swift */,
+				6F998975C7D6 /* MasterArtifactFactory.swift */,
+				2F816181CF3D /* ForgeViewV4.swift */,
+);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E1000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1000001 /* YiGe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1000005 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1000010 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1000001 /* YiGe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G1000003 /* Build configuration list for PBXNativeTarget "YiGe" */;
+			buildPhases = (
+				F1000002 /* Sources */,
+				D1000001 /* Frameworks */,
+				F1000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YiGe;
+			productName = YiGe;
+			productReference = C1000001 /* YiGe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		H1000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					F1000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = G1000001 /* Build configuration list for PBXProject "YiGe" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = E1000001;
+			productRefGroup = E1000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1000001 /* YiGe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2010552ED85D5900B772FD /* StyleCarouselView.swift in Sources */,
+				BB7D618D2EDB4FDC005E3899 /* HubStylePickerView.swift in Sources */,
+				BB7D618E2EDB4FDC005E3899 /* ArtifactStylePickerView.swift in Sources */,
+				BB7D618F2EDB4FDC005E3899 /* HistoryTabView.swift in Sources */,
+				A1000001 /* YiGeApp.swift in Sources */,
+				A1000002 /* Models.swift in Sources */,
+				A1000003 /* DataManager.swift in Sources */,
+				A1000020 /* QuotesManager.swift in Sources */,
+				A1000004 /* ContentView.swift in Sources */,
+				BB7D61CF2EE19C15005E3899 /* MasterArtifacts_Royal 2.swift in Sources */,
+				BB7D61942EDBD2BF005E3899 /* TimelineView.swift in Sources */,
+				BB7D61952EDBD2BF005E3899 /* CustomTemplateEditorView.swift in Sources */,
+				A1000017 /* CountdownView.swift in Sources */,
+				A1000018 /* TodayView.swift in Sources */,
+				A1000019 /* ProfileView.swift in Sources */,
+				BB7D61BD2EDD6AD3005E3899 /* ArtifactTemplateFactory.swift in Sources */,
+				A1000005 /* NewRecordView.swift in Sources */,
+				A1000006 /* RecordDetailView.swift in Sources */,
+				BB7D619F2EDC84B7005E3899 /* SensoryManager.swift in Sources */,
+				BB7D61CE2EE05580005E3899 /* ArtifactImageRenderer.swift in Sources */,
+				BB7D61D02EE05590005E3899 /* SpecialArtifactRenderer.swift in Sources */,
+				BB7D61DE2EE05600005E3899 /* ArtifactOutputSpecV4.swift in Sources */,
+				BB7D61E02EE05610005E3899 /* ArtifactEnhancements.swift in Sources */,
+				BB7D61E22EE05620005E3899 /* ForgeArtifactButton.swift in Sources */,
+				BB7D61E42EE05630005E3899 /* ThermalReceiptV5.swift in Sources */,
+				BB7D61E62EE05640005E3899 /* OptimizedArtifactsV5.swift in Sources */,
+				BB7D61E82EE05650005E3899 /* ThermalReceiptV7.swift in Sources */,
+				BB7D61EA2EE05660005E3899 /* ThermalReceiptV8.swift in Sources */,
+				BB7D61EC2EE05670005E3899 /* ThermalReceiptV9.swift in Sources */,
+				BB7D61EE2EE05680005E3899 /* RitualHubWidgetsV2.swift in Sources */,
+				BB7D61F02EE05690005E3899 /* RitualCenterView.swift in Sources */,
+				BB7D61F22EE056A0005E3899 /* ForgeView.swift in Sources */,
+				BB7D61F42EE056B0005E3899 /* ForgeViewV2.swift in Sources */,
+				BB7D61F62EE056C0005E3899 /* ForgeHubWidgetsV2.swift in Sources */,
+				BB7D61F82EE056D0005E3899 /* ForgeViewV3.swift in Sources */,
+				BB7D61FA2EE056E0005E3899 /* ForgeHubWidgetsV3.swift in Sources */,
+				BB7D61FE2EE05700005E3899 /* MasterForgeWidgets_Complete.swift in Sources */,
+				BB7D61FC2EE056F0005E3899 /* StyleReceiptThermalV3.swift in Sources */,
+				BB7D61D22EE055A0005E3899 /* TagsInputView.swift in Sources */,
+				BB7D61D42EE055B0005E3899 /* EventTypePickerView.swift in Sources */,
+				BB7D61DC2EE055F0005E3899 /* MetadataPickerView.swift in Sources */,
+				BB7D61D62EE055C0005E3899 /* MetadataCollector.swift in Sources */,
+				BB7D61D82EE055D0005E3899 /* LocationService.swift in Sources */,
+				BB7D61DA2EE055E0005E3899 /* WeatherService.swift in Sources */,
+				BB7D61A02EDC84B7005E3899 /* ThemeEngine.swift in Sources */,
+				BB7D61A12EDC84B7005E3899 /* LuxuryTabBar.swift in Sources */,
+				A1000007 /* TimeCapsuleView.swift in Sources */,
+				BB7D61BB2EDD69E1005E3899 /* LuxuryDevelopingBackground.swift in Sources */,
+				A1000009 /* NotificationManager.swift in Sources */,
+				A1000021 /* CalendarManager.swift in Sources */,
+				A1000022 /* RecordStyleViews.swift in Sources */,
+				A1000023 /* DayDetailView.swift in Sources */,
+				A1000024 /* OnboardingView.swift in Sources */,
+				A1000025 /* RitualHubWidgets.swift in Sources */,
+				A1000026 /* CameraService.swift in Sources */,
+				A1000027 /* CustomCameraView.swift in Sources */,
+				A1000028 /* MaxSealsReachedView.swift in Sources */,
+				A1000029 /* Models+V2.swift in Sources */,
+				A1000030 /* UserModel.swift in Sources */,
+				BB7D61912EDB755B005E3899 /* ArtifactPreviewView.swift in Sources */,
+				BB7D61992EDC7531005E3899 /* MintFlowView.swift in Sources */,
+				BB7D619A2EDC7531005E3899 /* TodayWorkbenchView.swift in Sources */,
+				BB7D619B2EDC7531005E3899 /* Helpers.swift in Sources */,
+				A1000031 /* AuthManager.swift in Sources */,
+				A1000032 /* MigrationManager.swift in Sources */,
+				A1000033 /* GLMService.swift in Sources */,
+				A1000034 /* AppConfig.swift in Sources */,
+				A1000035 /* LoginView.swift in Sources */,
+				A1000036 /* TimeCapsuleSheet.swift in Sources */,
+				BB7D61AB2EDC9620005E3899 /* ThemeMaterials.swift in Sources */,
+				BB58B2392ED8FD9D00631AAC /* KeepsakeSystem.swift in Sources */,
+				BB58B23B2ED8FDBC00631AAC /* QuotesExtension.swift in Sources */,
+				0E1F7FCB977169BF583008C0 /* ImageFileManager.swift in Sources */,
+				D8805C834C5156141BF35E04 /* LazyImageView.swift in Sources */,
+							1A671CA0DA18 /* MasterArtifacts_Nature.swift in Sources */,
+				AFB5DCDB3EE0 /* MasterArtifacts_Film.swift in Sources */,
+				A44AF19E51AA /* MasterArtifacts_Explorer.swift in Sources */,
+				99263CD8BAA6 /* MasterArtifacts_Aviation.swift in Sources */,
+				82AEAEACBED4 /* MasterArtifacts_Tickets.swift in Sources */,
+				4DA7100F07F2 /* ArtifactPickerV2.swift in Sources */,
+				E02D94958DB2 /* MasterArtifactFactory.swift in Sources */,
+				25D2036765F7 /* ForgeViewV4.swift in Sources */,
+);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G1000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G1000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G1000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = H6DP53GG4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = YiGe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "时光格";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfred.yige;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		G1000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = H6DP53GG4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = YiGe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "时光格";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfred.yige;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G1000001 /* Build configuration list for PBXProject "YiGe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G1000002 /* Debug */,
+				G1000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G1000003 /* Build configuration list for PBXNativeTarget "YiGe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G1000005 /* Debug */,
+				G1000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = H1000001 /* Project object */;
+}
